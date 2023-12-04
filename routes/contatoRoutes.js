@@ -15,7 +15,7 @@ router.post(
   ],
   contatoController.criarContato
 );
-router.get('/contatos', contatoController.listarContatos);
+router.get('contato/contatos', contatoController.listarContatos);
 
 
 
